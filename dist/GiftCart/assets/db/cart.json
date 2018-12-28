@@ -1,0 +1,39 @@
+{
+  "cart": [
+    {
+      "email": "govind@gmail.com",
+      "productId": 3,
+      "id": 11
+    },
+    {
+      "email": "karthi.rajendran@object-frontier.com",
+      "productId": 2,
+      "id": 12
+    },
+    {
+      "email": "karthi.rajendran@object-frontier.com",
+      "productId": 21,
+      "id": 15
+    },
+    {
+      "email": "test123@test.com",
+      "productId": 21,
+      "id": 21
+    },
+    {
+      "email": "Gowtham@gmail.com",
+      "productId": 3,
+      "id": 22
+    },
+    {
+      "email": "Gowtham@gmail.com",
+      "productId": 2,
+      "id": 23
+    },
+    {
+      "email": "Gowtham@gmail.com",
+      "productId": 21,
+      "id": 24
+    }
+  ]
+}

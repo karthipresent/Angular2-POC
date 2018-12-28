@@ -1,0 +1,70 @@
+{
+  "users": [
+    {
+      "name": "karthi",
+      "email": "karthi.rajendran@object-frontier.com",
+      "password": "admin123",
+      "id": 1
+    },
+    {
+      "name": "Gowtham",
+      "email": "Gowtham@gmail.com",
+      "password": "123",
+      "id": 9
+    },
+    {
+      "name": "ALHAREE B A",
+      "email": "test@test.com",
+      "password": "123",
+      "id": 10
+    },
+    {
+      "name": "Karthi Rajendran",
+      "email": "test@test.com",
+      "password": "5",
+      "id": 13
+    },
+    {
+      "name": "Gowtham",
+      "email": "Gowtham@gmail.com",
+      "password": "1234",
+      "id": 14
+    },
+    {
+      "name": "kithi",
+      "email": "kithi@gmail.com",
+      "password": "123",
+      "id": 15
+    },
+    {
+      "name": "ALHAREE B A",
+      "email": "alh@gmail.com",
+      "password": "123",
+      "id": 16
+    },
+    {
+      "name": "test",
+      "email": "test@gmail.com",
+      "password": "1234",
+      "id": 17
+    },
+    {
+      "name": "test",
+      "email": "Test123@gmail.com",
+      "password": "123",
+      "id": 18
+    },
+    {
+      "name": "govind",
+      "email": "govind@gmail.com",
+      "password": "123",
+      "id": 19
+    },
+    {
+      "name": "test123",
+      "email": "test123@test.com",
+      "password": "4321",
+      "id": 20
+    }
+  ]
+}
