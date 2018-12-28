@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "concurrently -n \"angular,user,products,cart\" \"ng serve --port 80\" \"json-server ./src/assets/db/user.json --port 3000\" \"json-server ./src/assets/db/products.json --port 3001\" \"json-server ./src/assets/db/cart.json --port 3002\"",
+    "start": "concurrently -n \"angular,user,products,cart\" \"ng serve\" \"json-server ./src/assets/db/user.json --port 3000\" \"json-server ./src/assets/db/products.json --port 3001\" \"json-server ./src/assets/db/cart.json --port 3002\"",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
