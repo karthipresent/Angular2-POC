@@ -1,0 +1,17 @@
+<div class="header row">
+    <div class="col">
+        <div class="row">
+            <div class="col-6 pt-4">
+                <h3 class="font-italic logo" routerLink="/"><i class="fa fa-shopping-cart"></i> Gift Kart</h3>
+            </div>
+            <div class="col-6 p-0 pt-5 header-nav text-right">
+              <span class="pr-4"><a routerLink = "/cart" *ngIf="userName != ''"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i> Cart</a></span>
+              <span class="pr-4"><i class="fa fa-user" aria-hidden="true"></i> Welcome {{userName || 'Guest'}} </span>
+              <span class="pr-4">
+                <a routerLink = "/login" *ngIf="userName == ''"><i class="fa fa-sign-in" aria-hidden="true"></i> Sign in / Sign up </a>
+                <a *ngIf="userName != ''" (click)=logout()><i class="fa fa-sign-out" aria-hidden="true"></i> LogOut </a>
+              </span>
+            </div> 
+        </div>
+    </div>
+</div>

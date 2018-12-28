@@ -1,0 +1,24 @@
+.productDisplayDetail {
+    .productImage {
+        height: 150px;
+        width:100%;
+        background: url('../../assets/img/noImage.png') no-repeat center;
+    }
+    .fa-trash {
+        font-size:1.5em;
+        color:gray;
+        &:hover {
+            color:red;
+            cursor: pointer;
+        }
+    }
+    .title {
+        color:#c50372;
+    }
+    .details {
+        font-size:14px;
+    }
+    .price {
+        font-size:24px;
+    }
+}

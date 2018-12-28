@@ -1,0 +1,50 @@
+<div class="row">
+  <div class="col pt-4">
+      <h4>{{productCategory}}</h4>
+      <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="col-3 pt-2">
+                <span class="breadcrumb-item">Products</span>
+                <span class="breadcrumb-item active" aria-current="page">{{productCategory}}</span>
+            </li>
+            <li class="col-3 text-right">
+                <div class="row" *ngIf="false">
+                  <label class="label col-6 pt-2">Order By :</label>
+                  <select class="form-control col-6" (change)="sortOrder = $event.target.value">
+                    <option>true</option>
+                    <option>false</option>
+                </select>
+               </div>
+            </li>
+            <li class="col-3 text-right">
+              <div class="row" *ngIf="productCategory == 'Cakes'">
+                <label class="label col-6 pt-2">Category :</label>
+                <select class="form-control col-6" (change)="selectedType = $event.target.value">
+                  <option>All</option>
+                  <option>Chocolate</option>
+                  <option>photo</option>
+                  <option>Eggless</option>
+              </select>
+             </div>
+            </li>
+            <li class="col-3 text-right">
+                <div class="row">
+                    <label class="label col-4 pt-2">Search :</label>
+                    <input class="form-control col-8" [(ngModel)]="searchText" placeholder="Enter product name">
+                </div>
+              </li>
+          </ol>
+      </nav>
+      <cdk-virtual-scroll-viewport class="view-port" itemSize="60" >
+        <ng-container *cdkVirtualFor="let products of displayProducts | orderBy: sortOrder | category: selectedType | search: searchText : 'name'">
+            <div routerLink="/productDetail/{{products.id}}">
+              <div class="productDisplay border rounded shadow-sm pull-left p-1 mx-2 mb-4 text-center">
+                  <img src="../assets/img/{{products.name}}.jpg" class="productImage"/>
+                  <h6 class="mt-2 m-0">{{products.name}}</h6>
+                  <strong>₹ {{products.price}}</strong>
+              </div>
+            </div>
+        </ng-container>
+      </cdk-virtual-scroll-viewport>
+  </div>
+</div>

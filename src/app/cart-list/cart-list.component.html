@@ -1,0 +1,26 @@
+<div class="pb-4">
+    <div class="productDisplayDetail" *ngFor = "let products of displayCartProducts">
+        <div class="row">
+          <div class="col-10 offset-1 border rounded shadow-sm mt-4">
+            <div class="row">
+                <div class="col-2 p-1 text-center">
+                    <img src="../assets/img/{{products.name}}.jpg" class="productImage"/>
+                </div>
+                <div class="col-10">
+                    <h5 class="mt-2 m-0 title">{{products.name}}</h5>
+                    <div class="details">{{products.details}}</div>
+                    <div class="price">₹ {{products.price}}</div>
+                    <div class="row">
+                        <div class="col-6">
+                            <button class="btn btn-primary" routerLink="/buyNow/{{products.id}}">Buy Now</button>
+                        </div>
+                        <div class="col-6 text-right">
+                            <i class="fa fa-trash" (click)="removeItem(products)"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>

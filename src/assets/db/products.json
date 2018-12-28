@@ -1,0 +1,196 @@
+{
+  "products": [
+    {
+      "name": "Truffle",
+      "details": "The goal of the product description is to provide the customer with enough information to compel them to want to buy the product immediately.",
+      "type": "Chocolate",
+      "catogery": "Cakes",
+      "price": "150",
+      "id": 1
+    },
+    {
+      "name": "Dark chocolate",
+      "details": "The goal of the product description is to provide the customer with enough information to compel them to want to buy the product immediately.",
+      "type": "Chocolate",
+      "catogery": "Cakes",
+      "price": "250",
+      "id": 2
+    },
+    {
+      "name": "kit kat",
+      "details": "The goal of the product description is to provide the customer with enough information to compel them to want to buy the product immediately.",
+      "type": "Chocolate",
+      "catogery": "Cakes",
+      "price": "550",
+      "id": 3
+    },
+    {
+      "name": "Belgian choco",
+      "details": "The goal of the product description is to provide the customer with enough information to compel them to want to buy the product immediately.",
+      "type": "Chocolate",
+      "catogery": "Cakes",
+      "price": "250",
+      "id": 4
+    },
+    {
+      "name": "white Chocolate",
+      "details": "The goal of the product description is to provide the customer with enough information to compel them to want to buy the product immediately.",
+      "type": "Chocolate",
+      "catogery": "Cakes",
+      "price": "300",
+      "id": 5
+    },
+    {
+      "name": "Black Forest",
+      "details": "The goal of the product description is to provide the customer with enough information to compel them to want to buy the product immediately.",
+      "type": "photo",
+      "catogery": "Cakes",
+      "price": "1150",
+      "id": 6
+    },
+    {
+      "name": "White Forest",
+      "details": "The goal of the product description is to provide the customer with enough information to compel them to want to buy the product immediately.",
+      "type": "photo",
+      "catogery": "Cakes",
+      "price": "1400",
+      "id": 7
+    },
+    {
+      "name": "Heart Shaped",
+      "details": "The goal of the product description is to provide the customer with enough information to compel them to want to buy the product immediately.",
+      "type": "photo",
+      "catogery": "Cakes",
+      "price": "1290",
+      "id": 8
+    },
+    {
+      "name": "venilla",
+      "details": "The goal of the product description is to provide the customer with enough information to compel them to want to buy the product immediately.",
+      "type": "photo",
+      "catogery": "Cakes",
+      "price": "1786",
+      "id": 9
+    },
+    {
+      "name": "butterscoch",
+      "details": "The goal of the product description is to provide the customer with enough information to compel them to want to buy the product immediately.",
+      "type": "photo",
+      "catogery": "Cakes",
+      "price": "1599",
+      "id": 10
+    },
+    {
+      "name": "Black Forest",
+      "details": "The goal of the product description is to provide the customer with enough information to compel them to want to buy the product immediately.",
+      "type": "Eggless",
+      "catogery": "Cakes",
+      "price": "350",
+      "id": 11
+    },
+    {
+      "name": "White Forest",
+      "details": "The goal of the product description is to provide the customer with enough information to compel them to want to buy the product immediately.",
+      "type": "Eggless",
+      "catogery": "Cakes",
+      "price": "849",
+      "id": 12
+    },
+    {
+      "name": "pineapple",
+      "details": "The goal of the product description is to provide the customer with enough information to compel them to want to buy the product immediately.",
+      "type": "Eggless",
+      "catogery": "Cakes",
+      "price": "499",
+      "id": 13
+    },
+    {
+      "name": "butterscoch",
+      "details": "The goal of the product description is to provide the customer with enough information to compel them to want to buy the product immediately.",
+      "type": "Eggless",
+      "catogery": "Cakes",
+      "price": "599",
+      "id": 14
+    },
+    {
+      "name": "venilla",
+      "details": "The goal of the product description is to provide the customer with enough information to compel them to want to buy the product immediately.",
+      "type": "Eggless",
+      "catogery": "Cakes",
+      "price": "599",
+      "id": 15
+    },
+    {
+      "name": "venilla",
+      "details": "The goal of the product description is to provide the customer with enough information to compel them to want to buy the product immediately.",
+      "type": "Eggless",
+      "catogery": "Cakes",
+      "price": "599",
+      "id": 16
+    },
+    {
+      "name": "venilla",
+      "details": "The goal of the product description is to provide the customer with enough information to compel them to want to buy the product immediately.",
+      "type": "Eggless",
+      "catogery": "Cakes",
+      "price": "599",
+      "id": 17
+    },
+    {
+      "name": "venilla",
+      "details": "The goal of the product description is to provide the customer with enough information to compel them to want to buy the product immediately.",
+      "type": "Eggless",
+      "catogery": "Cakes",
+      "price": "599",
+      "id": 18
+    },
+    {
+      "name": "venilla",
+      "details": "The goal of the product description is to provide the customer with enough information to compel them to want to buy the product immediately.",
+      "type": "Eggless",
+      "catogery": "Cakes",
+      "price": "599",
+      "id": 19
+    },
+    {
+      "name": "venilla",
+      "details": "The goal of the product description is to provide the customer with enough information to compel them to want to buy the product immediately.",
+      "type": "Eggless",
+      "catogery": "Cakes",
+      "price": "599",
+      "id": 20
+    },
+    {
+      "name": "Red Roses Bouquet",
+      "details": "The goal of the product description is to provide the customer with enough information to compel them to want to buy the product immediately.",
+      "type": "",
+      "catogery": "Flowers",
+      "price": "100",
+      "id": 21
+    },
+    {
+      "name": "Fragrant Rose Plant",
+      "details": "The goal of the product description is to provide the customer with enough information to compel them to want to buy the product immediately.",
+      "type": "",
+      "catogery": "Plants",
+      "price": "150",
+      "id": 22
+    },
+    {
+      "name": "Personalized Bro Cushion",
+      "details": "The goal of the product description is to provide the customer with enough information to compel them to want to buy the product immediately.",
+      "type": "",
+      "catogery": "Personalised",
+      "price": "250",
+      "id": 23
+    },
+    {
+      "name": "Blue Fish Soft Toy",
+      "details": "The goal of the product description is to provide the customer with enough information to compel them to want to buy the product immediately.",
+      "type": "",
+      "catogery": "Toys",
+      "price": "500",
+      "id": 24
+    }
+  ]
+}

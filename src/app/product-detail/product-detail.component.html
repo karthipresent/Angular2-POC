@@ -1,0 +1,19 @@
+<div class="row">
+  <div class="col pt-5">
+    <div class="row">
+      <div class="col-6">
+        <div class="productDisplayDetail border rounded shadow-sm p-1 mb-4 text-center">
+          <img src="../assets/img/{{SelectedProduct.name}}.jpg" class="productImage"/>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="mb-1 title">{{SelectedProduct.name}}</div>
+        <div class="mb-3 details">{{SelectedProduct.details}}</div>
+        <div class="mb-5 price">₹ {{SelectedProduct.price}}</div>
+        <button *ngIf="!cartAdded && session" class="btn btn-primary mr-2" (click)="addToCart($event,SelectedProduct)">Add to Cart</button>
+        <button *ngIf="cartAdded" class="btn btn-primary mr-2" routerLink="/cart">View Cart</button>
+        <button class="btn btn-primary" routerLink="/buyNow/{{SelectedProduct.id}}">Buy Now</button>
+      </div>
+    </div>
+  </div>
+</div>        
