@@ -4,8 +4,7 @@ import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-sign-up',
-  templateUrl: './sign-up.component.html',
-  styleUrls: ['./sign-up.component.sass']
+  templateUrl: './sign-up.component.html'
 })
 export class SignUpComponent implements OnInit {
   private LoginDetails;
